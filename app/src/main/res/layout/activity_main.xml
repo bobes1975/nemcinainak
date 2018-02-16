@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/mp16dp"
+    android:gravity="center_horizontal"
+    tools:context="com.example.android.nemcinainak.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo_a" />
+
+        <ImageView
+            android:id="@+id/picture01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/children"
+            android:scaleType="centerInside"
+            android:src="@drawable/bg_1" />
+
+        <TextView
+            android:id="@+id/description01"
+            style="@style/basicTextViewStyle"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="@dimen/mp160dp"
+            android:text="@string/description01"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description02"
+            style="@style/basicTextViewStyle"
+            android:layout_below="@id/description01"
+            android:text="@string/description02" />
+
+        <TextView
+            android:id="@+id/description03"
+            style="@style/basicTextViewStyle"
+            android:layout_below="@id/description02"
+            android:text="@string/description03"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description03"
+            android:layout_marginBottom="@dimen/mp16dp">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:onClick="address"
+                android:src="@mipmap/ic_crosshairs_gps_black_24dp" />
+
+            <TextView
+                style="@style/linLayoutTextViewStyle"
+                android:onClick="address"
+                android:text="@string/address" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/font16sp"
+                android:src="@mipmap/ic_phone_in_talk_black_24dp" />
+
+            <TextView
+                style="@style/linLayoutTextViewStyle"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:text="@string/call_us"
+                android:textColorLink="@color/primaryText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phone"
+            android:layout_marginBottom="@dimen/mp16dp">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/mp16dp"
+                android:src="@mipmap/ic_web_black_24dp" />
+
+            <TextView
+                style="@style/linLayoutTextViewStyle"
+                android:autoLink="web"
+                android:clickable="true"
+                android:text="@string/visit_us"
+                android:textColorLink="@color/primaryText" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

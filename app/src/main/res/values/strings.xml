@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Nemcina Inak</string>
+    <string name="logo">logo</string>
+    <string name="description01">Hľadáte pre Vaše dieťa kvalitný jazykový kurz?</string>
+    <string name="description02">Tak zverte Vaše dieťa nám. Naše kurzy sú zábavné, interaktívne, plné výnimočných zážitkov, ale predovšetkým EFEKTÍVNE.</string>
+    <string name="description03">S nami deti nemčinu naozaj milujú!</string>
+    <string name="call_us">+421 903 530 833</string>
+    <string name="visit_us">www.nemcinainak.sk</string>
+    <string name="address">Námestie hraničiarov 8/A, Bratislava, Slovenko</string>
+    <string name="intro_picture">intro picture</string>
+    <string name="children">children</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mp16dp">16dp</dimen>
+    <dimen name="mp32dp">32dp</dimen>
+    <dimen name="mp160dp">170dp</dimen>
+    <dimen name="font14sp">14sp</dimen>
+    <dimen name="font16sp">16sp</dimen>
+    <dimen name="font18sp">18sp</dimen>
+    <dimen name="font20sp">20sp</dimen>
+    <dimen name="font25sp">25sp</dimen>
+    <dimen name="font32sp">32sp</dimen>
+
+</resources>
